@@ -6,9 +6,8 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-}
-)
-export class AppComponent { 
-  titulo = 'Bienvenidos al buscador pokemon con mas aura de la 3227025'
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  titulo = 'Bienvenido al Buscador Pokemon con mas Aura de la 3227025 ;D';
 }
